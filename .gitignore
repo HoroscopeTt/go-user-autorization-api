@@ -1,0 +1,13 @@
+# Other common IDE/editor files
+.DS_Store # macOS
+*~ # Emacs/Vim backup files
+*.log # Log files
+/vendor/ # Go modules vendor directory (if used)
+/tmp/ # Temporary files/directories
+
+# VS Code specific files
+.vscode/
+
+# IntelliJ / GoLand specific files
+.idea/
+*.iml
