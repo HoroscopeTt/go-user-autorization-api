@@ -11,6 +11,7 @@ import (
 )
 
 func main() {
+	//test
 	cfg := config.LoadConfig()
 
 	mongoClient, err := util.InitMongoDBClient(cfg.MongoDBURI, cfg.MongoDBTimeout)
